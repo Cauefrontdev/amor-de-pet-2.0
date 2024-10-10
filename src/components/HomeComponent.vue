@@ -29,7 +29,7 @@ export default {
 <style scoped>
 .container {
   width: 100vw;
-  background-image: linear-gradient(to bottom, #ffb602, #ea9401);
+  background: #ffb602;
   height: 100vh;
 }
 

@@ -147,7 +147,7 @@ button:hover {
   align-items: center;
   justify-content: center;
   position: fixed;
-  top: 90vh;
+  top: 80vh;
 }
 
 .nav {
