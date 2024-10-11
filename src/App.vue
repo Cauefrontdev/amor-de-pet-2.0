@@ -1,7 +1,6 @@
 <template>
   <div class="carousel-wrapper" @touchstart="startTouch" @touchend="endTouch">
     <div class="carousel" :style="{ transform: `translateX(-${currentPage * 100}vw)` }">
-      <!-- Seções do carrossel -->
       <section id="home"><HomeComponent/></section>
       <section id="register">Cadastro de Pet Perdido</section>
       <section id="feed">Feed de Pets Perdidos</section>

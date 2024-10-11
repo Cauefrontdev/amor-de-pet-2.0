@@ -61,27 +61,27 @@ button:hover {
   align-items: center;
   justify-content: center;
   position: fixed;
-  top: 90vh;
+  bottom: 0vh;
 }
 
 .nav {
+  width: 100%;
   padding: 15px 28px;
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.05);
-  border-radius: 30px;
   background-color: #fff;
 }
 
 ul {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 25px;
 }
 
 ul li a i {
-  font-size: 20px;
+  font-size: 25px;
   color: #7C05B2;
 }
 
