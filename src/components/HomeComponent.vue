@@ -1,7 +1,11 @@
 <template>
+
  <div class="container">
+  <div class="textura">
+    <img class="fundo" :src="require('@/assets/img/textura-fundo.png')" alt="Dog Home">
+  </div>
   <div class="box">
-    <img class="logo" :src="require('@/assets/logo-amor-de-pet.png')" alt="Dog Home">
+    <img class="logo" :src="require('@/assets/img/logo-amor-de-pet.png')" alt="Dog Home">
     <h1>Encontre seu pet perdido</h1>
     <p>Encontre seu pet de forma <b>rápida e eficiente</b>. Anuncie <b>gratuitamente</b> e tenha acesso ao Painel de Busca!</p>
     <div class="buttons">
@@ -9,10 +13,13 @@
       <button class="btn1">Encontrar Pet</button>
     </div>
     <div class="buttons">
-      <button class="btn2"> <img class="google" :src="require('@/assets/google-logo.png')" alt="google-logo"> Entrar com Google</button>
+      <button class="btn2"> <img class="google" :src="require('@/assets/img/google-logo.png')" alt="google-logo"> Entrar com Google</button>
     </div>
   </div>
-  <img class="pet-float" :src="require('@/assets/dog-home.png')" alt="Dog Home">
+  <img class="pet-float img" :src="require('@/assets/img/dog-home.png')" alt="Dog Home">
+  <img class="vetor img" :src="require('@/assets/img/vetor.png')" alt="Dog Home">
+  <img class="vetor1 img" :src="require('@/assets/img/vetor2.png')" alt="Dog Home">
+  <img class="vetor2 img" :src="require('@/assets/img/vetor1.png')" alt="Dog Home">
  </div>
 </template>
 
@@ -27,18 +34,53 @@ export default {
 
 
 <style scoped>
-.container {
+
+.textura {
+  overflow: hidden;
   width: 100vw;
-  background: #ffb602;
+  height: 100vh;
+  position: absolute !important;
+  position: relative;
+  filter: opacity(0.1);
+
+}
+.container {
+  position: relative;
+  width: 100vw;
+  background: linear-gradient(to top, #ffb602, #ffcc33);
   height: 100vh;
 }
 
 .pet-float {
-  max-width: 20rem;
+  max-width: 340px;
   position: absolute;
-  bottom: 0px;
   right: 0;
+  bottom: 0;
 }
+
+.vetor {
+  max-width: 12vw;
+  position: absolute;
+  left: -2rem;
+  top: -3rem;
+}
+
+.vetor1 {
+  max-width: 20vw;
+  position: absolute;
+  transform: rotate(25deg);
+  left: 10rem;
+  bottom: 5rem;
+}
+
+.vetor2 {
+  max-width: 15vw;
+  position: absolute;
+  transform: rotate(-55deg);
+  right: 5rem;
+  top: 5rem;
+}
+
 
 .box {
   position: relative;
@@ -73,8 +115,12 @@ export default {
   gap: 2.5%;
 }
 
-@media (max-width: 844px) {
-  .pet-float {
+img {
+  filter: opacity(0.9);
+}
+
+@media (max-width: 1000px) {
+  .img {
     display: none;
   }
 }
