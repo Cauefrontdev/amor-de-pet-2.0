@@ -17,9 +17,9 @@
     </div>
   </div>
   <img class="pet-float img" :src="require('@/assets/img/dog-home.png')" alt="Dog Home">
-  <img class="vetor img" :src="require('@/assets/img/vetor.png')" alt="Dog Home">
-  <img class="vetor1 img" :src="require('@/assets/img/vetor2.png')" alt="Dog Home">
-  <img class="vetor2 img" :src="require('@/assets/img/vetor1.png')" alt="Dog Home">
+  <img class="vetor " :src="require('@/assets/img/vetor.png')" alt="Dog Home">
+  <img class="vetor1" :src="require('@/assets/img/vetor2.png')" alt="Dog Home">
+  <img class="vetor2" :src="require('@/assets/img/vetor1.png')" alt="Dog Home">
  </div>
 </template>
 
@@ -120,9 +120,38 @@ img {
 }
 
 @media (max-width: 1000px) {
+
+  .container {
+    height: 80vh;
+  }
   .img {
     display: none;
   }
+
+  .vetor {
+  max-width: 30vw;
+  position: absolute;
+  left: -2%;
+  top: -2rem;
+}
+
+.vetor1 {
+  max-width: 35vw;
+  position: absolute;
+  transform: rotate(25deg);
+  left: 2rem;
+  bottom: 0rem;
+}
+
+.vetor2 {
+  max-width: 15vw;
+  position: absolute;
+  transform: rotate(-55deg);
+  right: 2rem;
+  top:  3rem;
+}
+
+
 }
 
 

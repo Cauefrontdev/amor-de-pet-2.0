@@ -1,7 +1,7 @@
 <template>
   <div class="carousel-wrapper" @touchstart="startTouch" @touchend="endTouch">
     <div class="carousel" :style="{ transform: `translateX(-${currentPage * 100}vw)` }">
-      <section id="home"><HomeComponent/></section>
+      <section id="home"><HomeComponent/> <ImgMobile/> </section>
       <section id="register">Cadastro de Pet Perdido</section>
       <section id="feed">Feed de Pets Perdidos</section>
       <section id="adoption">Adoção</section>
@@ -27,11 +27,13 @@
 
 <script>
 import HomeComponent from './components/HomeComponent.vue';
+import ImgMobile from './components/ImgMobile.vue';
 
 export default {
   name: 'App',
   components: {
     HomeComponent,
+    ImgMobile,
   },
 };
 </script>
