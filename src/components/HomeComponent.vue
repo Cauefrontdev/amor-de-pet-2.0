@@ -47,7 +47,7 @@ export default {
 .container {
   position: relative;
   width: 100vw;
-  background: linear-gradient(to top, #ffb602, #ffcc33);
+  background: linear-gradient(to top, #ffb602);
   height: 100vh;
 }
 
