@@ -23,17 +23,20 @@
         </ul>
       </nav>
     </div>
+    <FooterComponent/>
 </template>
 
 <script>
 import HomeComponent from './components/HomeComponent.vue';
 import ImgMobile from './components/ImgMobile.vue';
+import FooterComponent from './components/FooterComponent.vue';
 
 export default {
   name: 'App',
   components: {
     HomeComponent,
     ImgMobile,
+    FooterComponent,
   },
 };
 </script>

@@ -89,10 +89,6 @@ export default {
   }
 }
 
-.logo {
-  max-width: 250px;
-}
-
 .google {
   max-width: 12%;
 }
