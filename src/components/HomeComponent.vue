@@ -1,9 +1,7 @@
 <template>
 
  <div class="container">
-  <div class="textura">
-    <img class="fundo" :src="require('@/assets/img/textura-fundo.png')" alt="Dog Home">
-  </div>
+ 
   <div class="box">
     <img class="logo" :src="require('@/assets/img/logo-amor-de-pet.png')" alt="Dog Home">
     <h1>Encontre seu pet perdido</h1>
@@ -35,15 +33,7 @@ export default {
 
 <style scoped>
 
-.textura {
-  overflow: hidden;
-  width: 100vw;
-  height: 100vh;
-  position: absolute !important;
-  position: relative;
-  filter: opacity(0.4);
 
-}
 .container {
   position: relative;
   width: 100vw;
@@ -148,7 +138,7 @@ img {
   position: absolute;
   transform: rotate(-55deg);
   right: 0rem;
-  top:  9rem;
+  top:  8rem;
 }
 
 
