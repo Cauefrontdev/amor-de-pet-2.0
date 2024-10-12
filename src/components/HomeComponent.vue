@@ -41,7 +41,7 @@ export default {
   height: 100vh;
   position: absolute !important;
   position: relative;
-  filter: opacity(0.1);
+  filter: opacity(0.4);
 
 }
 .container {
@@ -78,7 +78,7 @@ export default {
   position: absolute;
   transform: rotate(-55deg);
   right: 5rem;
-  top: 4rem;
+  top: 5rem;
 }
 
 
@@ -148,7 +148,7 @@ img {
   position: absolute;
   transform: rotate(-55deg);
   right: 0rem;
-  top:  10rem;
+  top:  9rem;
 }
 
 
