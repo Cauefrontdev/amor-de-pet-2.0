@@ -78,7 +78,7 @@ export default {
   position: absolute;
   transform: rotate(-55deg);
   right: 5rem;
-  top: 5rem;
+  top: 4rem;
 }
 
 
