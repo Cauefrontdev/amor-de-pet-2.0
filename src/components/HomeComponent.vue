@@ -47,7 +47,7 @@ export default {
 .container {
   position: relative;
   width: 100vw;
-  background: linear-gradient(to top, #ffb602);
+  background: linear-gradient(to top, #ffb602, #f9c543 );
   height: 100vh;
 }
 
@@ -129,26 +129,26 @@ img {
   }
 
   .vetor {
-  max-width: 30vw;
+  max-width: 25vw;
   position: absolute;
   left: -2%;
   top: -2rem;
 }
 
 .vetor1 {
-  max-width: 35vw;
+  max-width: 40vw;
   position: absolute;
   transform: rotate(25deg);
-  left: 2rem;
-  bottom: 0rem;
+  left: 0rem;
+  bottom: -5rem;
 }
 
 .vetor2 {
   max-width: 15vw;
   position: absolute;
   transform: rotate(-55deg);
-  right: 2rem;
-  top:  3rem;
+  right: 0rem;
+  top:  10rem;
 }
 
 
