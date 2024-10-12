@@ -15,7 +15,7 @@
     </div>
   </div>
   <img class="pet-float img" :src="require('@/assets/img/dog-home.png')" alt="Dog Home">
-  <img class="vetor " :src="require('@/assets/img/vetor.png')" alt="Dog Home">
+  <img class="vetor " :src="require('@/assets/img/vetor1.png')" alt="Dog Home">
   <img class="vetor1" :src="require('@/assets/img/vetor2.png')" alt="Dog Home">
   <img class="vetor2" :src="require('@/assets/img/vetor1.png')" alt="Dog Home">
  </div>
@@ -117,8 +117,9 @@ img {
   .vetor {
   max-width: 25vw;
   position: absolute;
-  left: -2%;
-  top: -2rem;
+  left: -8%;
+  transform: rotate(50deg);
+  top: -1rem;
 }
 
 .vetor1 {

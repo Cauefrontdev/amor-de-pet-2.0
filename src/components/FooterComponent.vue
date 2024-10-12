@@ -15,7 +15,7 @@
         </nav>
         <p>Tem uma ong? Seja nosso parceiro!</p>
         <nav>
-            <p>&copy; <b>Amor de pet todos direitos reservados</b></p>
+            <p>&copy; <b>Amor de pet</b> todos direitos reservados</p>
         </nav>
         <p>Desenvolvido por:</p>
         <img class="logo img" src="https://i.imgur.com/WSq33AA.png" alt="">
@@ -93,7 +93,6 @@
    @media (max-width: 844px) {
     nav {
         flex-direction: column;
-        font-size: 24px;
     }
    }
    
