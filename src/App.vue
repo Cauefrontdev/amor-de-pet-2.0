@@ -2,7 +2,7 @@
   <div class="carousel-wrapper" @touchstart="startTouch" @touchend="endTouch">
     <div class="carousel" :style="{ transform: `translateX(-${currentPage * 100}vw)` }">
       <section id="home"><HomeComponent/> <ImgMobile/> </section>
-      <section id="register">Cadastro de Pet Perdido</section>
+      <section id="register"><RegisterPet/></section>
       <section id="feed">Feed de Pets Perdidos</section>
       <section id="adoption">Adoção</section>
       <section id="profile">Perfil</section>
@@ -30,6 +30,7 @@
 import HomeComponent from './components/HomeComponent.vue';
 import ImgMobile from './components/ImgMobile.vue';
 import FooterComponent from './components/FooterComponent.vue';
+import RegisterPet from './components/RegisterPet.vue';
 
 export default {
   name: 'App',
@@ -37,7 +38,10 @@ export default {
     HomeComponent,
     ImgMobile,
     FooterComponent,
+    RegisterPet,
   },
 };
 </script>
+
+
 

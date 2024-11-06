@@ -74,6 +74,10 @@ button:hover {
   background-color: #fff;
 }
 
+label {
+  font-size: 14px;
+}
+
 ul {
   list-style: none;
   display: flex;
@@ -85,8 +89,10 @@ ul li a i {
   color: #7C05B2;
 }
 
-/* Estilo do carrossel */
+
 .carousel-wrapper {
+  display: flex;
+  align-items: center;
   position: relative;
   overflow: hidden;
 }
@@ -94,7 +100,7 @@ ul li a i {
 .carousel {
   display: flex;
   transition: transform 0.5s ease-in-out;
-  width: 700%; /* Cada seção ocupa 100% da tela */
+  width: 700%; 
 }
 
 section {

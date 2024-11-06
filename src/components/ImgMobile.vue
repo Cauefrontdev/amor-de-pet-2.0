@@ -28,7 +28,6 @@
      bottom: 0;
    }
    
- 
    
    img {
      filter: opacity(0.9);
