@@ -1,6 +1,6 @@
 <template>
     <footer class="footer">
-        <img class="logo img" :src="require('@/assets/img/logo-amor-de-pet.png')" alt="logo-amor-de-pet">
+      
         <div class="selo-box">
             <div class="selo"><img class="img" :src="require('@/assets/img/boleto.png')" alt="boleto-icon"></div>
             <div class="selo"><img class="img" :src="require('@/assets/img/visa-svgrepo-com.svg')" alt="visa-icon"></div>
